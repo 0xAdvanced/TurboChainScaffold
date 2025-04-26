@@ -1,0 +1,23 @@
+{
+  "name": "turbochainscaffold",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "chains/*",
+    "apps/*",
+    "shared/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "deploy": "turbo run deploy",
+    "lint": "turbo run lint",
+    "test": "turbo run test"
+  },
+  "devDependencies": {
+    "turbo": "^1.10.7",
+    "typescript": "^5.2.2",
+    "eslint": "^8.48.0",
+    "prettier": "^3.1.0"
+  }
+}

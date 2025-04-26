@@ -1,0 +1,38 @@
+# Node.js
+node_modules
+
+# TurboRepo
+.cache/
+
+# Logs
+*.log
+yarn-error.log
+pnpm-debug.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+
+# Build outputs
+dist/
+build/
+out/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+
+# Other
+.pnpm-store
+.yarn
+coverage/
+
+# Apps specific
+apps/dapp-ui/.next
+apps/dapp-ui/.turbo
+apps/dapp-ui/.vercel

@@ -1,0 +1,1 @@
+module counter::Counter { struct Counter has key { value: u64; } }

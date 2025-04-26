@@ -1,0 +1,1 @@
+contract Counter { int counter; }
