@@ -2,3 +2,205 @@
 2025-04-26T15:06:28.307444Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
 2025-04-26T15:06:29.408194Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/next-env.d.ts")}
 2025-04-26T15:06:29.408204Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T15:09:25.007716Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/pages/_app.tsx")}
+2025-04-26T15:09:25.007726Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T15:10:09.507689Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/pages/_app.tsx")}
+2025-04-26T15:10:09.507699Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T15:10:11.407819Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/pages/_app.tsx")}
+2025-04-26T15:10:11.407828Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T15:10:11.407841Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-26T15:31:36.803321Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("chains/evm/cache/solidity-files-cache.json")}
+2025-04-26T15:31:36.803339Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("evm-counter"), path: AnchoredSystemPathBuf("chains/evm") }}))
+2025-04-26T15:32:22.303560Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/pages/_app.tsx")}
+2025-04-26T15:32:22.303579Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T15:42:33.099836Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/pages/_app.tsx")}
+2025-04-26T15:42:33.099847Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T15:42:33.099862Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-26T15:45:22.299302Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/pages/index.tsx")}
+2025-04-26T15:45:22.299312Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T15:47:29.099871Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/pages/EVMTest.tsx")}
+2025-04-26T15:47:29.099882Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T15:48:03.999300Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/pages/EVMTest.tsx")}
+2025-04-26T15:48:03.999318Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T15:50:10.101118Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/pages/EVMTest.tsx")}
+2025-04-26T15:50:10.101140Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T15:54:40.422908Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/pages/EVMTest.tsx")}
+2025-04-26T15:54:40.422926Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T15:55:10.938078Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/pages/EVMTest.tsx")}
+2025-04-26T15:55:10.938092Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T15:55:22.924415Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/pages/EVMTest.tsx")}
+2025-04-26T15:55:22.924424Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T15:58:38.724095Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/pages/EVMTest.tsx")}
+2025-04-26T15:58:38.724103Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T15:58:50.424434Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/pages/EVMTest.tsx")}
+2025-04-26T15:58:50.424442Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T16:03:12.124726Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/pages/EVMTest.tsx")}
+2025-04-26T16:03:12.124744Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T16:04:43.025336Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/pages/_app.tsx")}
+2025-04-26T16:04:43.025347Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T16:04:57.626007Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/pages/_app.tsx")}
+2025-04-26T16:04:57.626025Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T16:05:13.529837Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/pages/_app.tsx")}
+2025-04-26T16:05:13.529857Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T16:06:50.625268Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/pages/_app.tsx")}
+2025-04-26T16:06:50.625279Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T16:06:50.634481Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-26T16:16:29.227173Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".github"), AnchoredSystemPathBuf(".github/workflows")}
+2025-04-26T16:16:29.227190Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-26T16:16:44.227449Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".github/workflows/ci-vercel.yml")}
+2025-04-26T16:16:44.227469Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-26T16:16:46.026923Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".github/workflows/ci-vercel.yml")}
+2025-04-26T16:16:46.026953Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-26T16:16:46.126808Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".github/workflows/ci-vercel.yml")}
+2025-04-26T16:16:46.126824Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-26T16:17:07.628018Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".github/workflows/deploy-contracts.yml")}
+2025-04-26T16:17:07.628035Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-26T16:17:09.326870Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".github/workflows/deploy-contracts.yml")}
+2025-04-26T16:17:09.326891Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-26T16:17:49.227617Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("scripts/sync-abis.js")}
+2025-04-26T16:17:49.227635Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-26T16:17:50.927722Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("scripts/sync-abis.js")}
+2025-04-26T16:17:50.927740Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-26T16:18:01.726489Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("scripts/sync-abis.js")}
+2025-04-26T16:18:01.726506Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-26T16:18:41.126413Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("docs/DEVELOPMENT.md")}
+2025-04-26T16:18:41.126431Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-26T16:18:42.827193Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("docs/DEVELOPMENT.md")}
+2025-04-26T16:18:42.827210Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-26T16:19:07.927479Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("docs/CONTRIBUTING.md")}
+2025-04-26T16:19:07.927498Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-26T16:19:32.628564Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("docs/CODE_OF_CONDUCT.md")}
+2025-04-26T16:19:32.628613Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-26T16:19:34.627177Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("docs/CODE_OF_CONDUCT.md")}
+2025-04-26T16:19:34.627194Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-26T16:19:44.327254Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".github/ISSUE_TEMPLATE")}
+2025-04-26T16:19:44.327272Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-26T16:20:01.127380Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".github/ISSUE_TEMPLATE/bug_report.md")}
+2025-04-26T16:20:01.127406Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-26T16:20:02.727909Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".github/ISSUE_TEMPLATE/bug_report.md")}
+2025-04-26T16:20:02.727926Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-26T16:20:17.126913Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".github/ISSUE_TEMPLATE/feature_request.md")}
+2025-04-26T16:20:17.126966Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-26T16:20:18.827958Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".github/ISSUE_TEMPLATE/feature_request.md")}
+2025-04-26T16:20:18.827975Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-26T16:20:29.427014Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("chains/aptos")}
+2025-04-26T16:20:29.427032Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-26T16:20:49.527690Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("chains/aptos/counter.move")}
+2025-04-26T16:20:49.527709Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-26T16:20:51.228032Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("chains/aptos/counter.move")}
+2025-04-26T16:20:51.228051Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-26T16:21:05.428702Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("chains/aptos/Move.toml")}
+2025-04-26T16:21:05.428723Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-26T16:21:05.529632Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("chains/aptos/Move.toml")}
+2025-04-26T16:21:05.529660Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-26T16:21:07.133683Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("chains/aptos/Move.toml")}
+2025-04-26T16:21:07.133701Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-26T16:21:41.653252Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("chains/sui/counter.move")}
+2025-04-26T16:21:41.653269Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-26T16:21:54.955665Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("chains/sui/Move.toml")}
+2025-04-26T16:21:54.955689Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-26T16:21:56.655315Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("chains/sui/Move.toml")}
+2025-04-26T16:21:56.655333Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-26T16:22:14.356714Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("chains/ton/Counter.tact")}
+2025-04-26T16:22:14.356733Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-26T16:22:57.756355Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("chains/sui/counter.move")}
+2025-04-26T16:22:57.756373Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-26T16:23:08.156953Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("chains/ton/Counter.tact")}
+2025-04-26T16:23:08.156978Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-26T16:24:15.958237Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/components")}
+2025-04-26T16:24:15.958245Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T16:24:15.958259Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-26T16:24:37.559682Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/components/ChainSelector.tsx")}
+2025-04-26T16:24:37.559702Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T16:24:39.357727Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/components/ChainSelector.tsx")}
+2025-04-26T16:24:39.357748Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T16:24:52.158069Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/components/ChainSelector.tsx")}
+2025-04-26T16:24:52.158079Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T16:24:52.158093Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-04-26T16:25:03.158654Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/components/Counter.tsx")}
+2025-04-26T16:25:03.158664Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T16:25:04.757330Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/components/Counter.tsx")}
+2025-04-26T16:25:04.757340Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T16:25:20.758722Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/components/ErrorDisplay.tsx")}
+2025-04-26T16:25:20.758732Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T16:25:22.358917Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/components/ErrorDisplay.tsx")}
+2025-04-26T16:25:22.358935Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T16:25:54.658418Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/components/EVMConnector.tsx")}
+2025-04-26T16:25:54.658429Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T16:25:56.359649Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/components/EVMConnector.tsx")}
+2025-04-26T16:25:56.359660Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T16:26:19.259107Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-04-26T16:26:19.259125Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-04-26T16:26:27.659588Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/components/SolanaConnector.tsx")}
+2025-04-26T16:26:27.659616Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T16:26:29.358956Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/components/SolanaConnector.tsx")}
+2025-04-26T16:26:29.358973Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T16:27:04.460120Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/components/SuiConnector.tsx")}
+2025-04-26T16:27:04.460140Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T16:27:06.160015Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/components/SuiConnector.tsx")}
+2025-04-26T16:27:06.160034Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T16:27:44.060379Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/components/AptosConnector.tsx")}
+2025-04-26T16:27:44.060388Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T16:27:45.659224Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/components/AptosConnector.tsx")}
+2025-04-26T16:27:45.659244Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T16:28:11.960934Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/components/TONConnector.tsx")}
+2025-04-26T16:28:11.960946Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T16:28:14.062342Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/components/TONConnector.tsx")}
+2025-04-26T16:28:14.062362Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T16:28:45.759755Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/components/SuiConnector.tsx")}
+2025-04-26T16:28:45.759764Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T16:28:53.361042Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/types/global.d.ts"), AnchoredSystemPathBuf("apps/dapp-ui/types")}
+2025-04-26T16:28:53.361051Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T16:28:55.661019Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/types/global.d.ts")}
+2025-04-26T16:28:55.661029Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T16:29:23.461618Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/components/SolanaConnector.tsx")}
+2025-04-26T16:29:23.461636Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T16:29:50.361724Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/components/SolanaConnector.tsx")}
+2025-04-26T16:29:50.361860Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T16:30:11.661829Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/components/SolanaConnector.tsx")}
+2025-04-26T16:30:11.661863Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T16:30:37.397475Z  WARN turborepo_filewatch::globwatcher: encountered filewatching error, flushing all globs: channel lagged by 83
+2025-04-26T16:30:37.411114Z  WARN turborepo_filewatch::package_watcher: lagged behind 158 processing file watching events
+2025-04-26T16:30:37.434452Z  WARN turborepo_filewatch::package_watcher: lagged behind 431 processing file watching events
+2025-04-26T16:30:37.470891Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-04-26T16:30:37.470904Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-04-26T16:30:37.519238Z  WARN turborepo_lib::package_changes_watcher: file event lagged
+2025-04-26T16:30:37.745025Z  WARN turborepo_lib::package_changes_watcher: file event lagged
+2025-04-26T16:30:37.903545Z  WARN turborepo_lib::package_changes_watcher: file event lagged
+2025-04-26T16:30:38.054140Z  WARN turborepo_lib::package_changes_watcher: file event lagged
+2025-04-26T16:30:38.220106Z  WARN turborepo_lib::package_changes_watcher: file event lagged
+2025-04-26T16:30:38.389742Z  WARN turborepo_lib::package_changes_watcher: file event lagged
+2025-04-26T16:30:42.062357Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/package.json")}
+2025-04-26T16:30:42.062378Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T16:30:42.335734Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("yarn.lock"), AnchoredSystemPathBuf("package-lock.json")}
+2025-04-26T16:30:42.335742Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-26T16:30:42.553248Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("yarn.lock")}
+2025-04-26T16:30:42.553256Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-04-26T16:31:12.762386Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/components/SolanaConnector.tsx")}
+2025-04-26T16:31:12.762406Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T16:36:26.766315Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/dapp-ui/pages/_app.tsx")}
+2025-04-26T16:36:26.766342Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("dapp-ui"), path: AnchoredSystemPathBuf("apps/dapp-ui") }}))
+2025-04-26T16:37:33.368783Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-04-26T16:37:33.368798Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-04-26T16:37:34.473266Z  WARN turborepo_lib::package_changes_watcher: file event lagged
+2025-04-26T16:37:34.474379Z  WARN turborepo_lib::package_changes_watcher: file event lagged
+2025-04-26T16:37:35.209075Z  WARN turborepo_filewatch::package_watcher: lagged behind 22 processing file watching events
+2025-04-26T16:37:35.388171Z  WARN turborepo_filewatch::package_watcher: lagged behind 27 processing file watching events
+2025-04-26T16:37:35.398640Z  WARN turborepo_filewatch::package_watcher: lagged behind 637 processing file watching events
+2025-04-26T16:37:35.421110Z  WARN turborepo_filewatch::globwatcher: encountered filewatching error, flushing all globs: channel lagged by 92
+2025-04-26T16:37:35.630782Z  WARN turborepo_filewatch::globwatcher: encountered filewatching error, flushing all globs: channel lagged by 123
+2025-04-26T16:37:35.910473Z  WARN turborepo_filewatch::globwatcher: encountered filewatching error, flushing all globs: channel lagged by 245
+2025-04-26T16:37:36.496136Z  WARN turborepo_filewatch::package_watcher: lagged behind 7 processing file watching events
+2025-04-26T16:37:36.730049Z  WARN turborepo_filewatch::package_watcher: lagged behind 319 processing file watching events
+2025-04-26T16:37:36.730159Z  WARN turborepo_filewatch::globwatcher: encountered filewatching error, flushing all globs: channel lagged by 140
+2025-04-26T16:37:38.079113Z  WARN turborepo_filewatch::globwatcher: encountered filewatching error, flushing all globs: channel lagged by 105
+2025-04-26T16:37:39.001493Z  WARN turborepo_filewatch::globwatcher: encountered filewatching error, flushing all globs: channel lagged by 323
+2025-04-26T16:37:39.001686Z  WARN turborepo_filewatch::package_watcher: lagged behind 122 processing file watching events
+2025-04-26T16:37:39.287440Z  WARN turborepo_filewatch::globwatcher: encountered filewatching error, flushing all globs: channel lagged by 133
+2025-04-26T16:37:39.295832Z  WARN turborepo_filewatch::package_watcher: lagged behind 167 processing file watching events
+2025-04-26T16:37:39.448722Z  WARN turborepo_filewatch::globwatcher: encountered filewatching error, flushing all globs: channel lagged by 17
+2025-04-26T16:37:40.012514Z  WARN turborepo_filewatch::globwatcher: encountered filewatching error, flushing all globs: channel lagged by 40
+2025-04-26T16:37:40.012565Z  WARN turborepo_filewatch::package_watcher: lagged behind 43 processing file watching events
+2025-04-26T16:37:42.767058Z  WARN turborepo_filewatch::globwatcher: encountered filewatching error, flushing all globs: channel lagged by 35
+2025-04-26T16:37:42.915930Z  WARN turborepo_filewatch::globwatcher: encountered filewatching error, flushing all globs: channel lagged by 172
+2025-04-26T16:37:42.916033Z  WARN turborepo_filewatch::package_watcher: lagged behind 149 processing file watching events

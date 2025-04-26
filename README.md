@@ -43,7 +43,7 @@ TurboChainScaffold/
 
 - ⚡️ TurboRepo Monorepo 架构（构建极速）
 - ⚡️ 多链智能合约统一管理
-- ⚡️ 多链多钩绑支持（Metamask, Phantom, Tonkeeper, Sui Wallet）
+- ⚡️ 多链多钩绑支持（Metamask, RainbowKit, Phantom, Solflare, Backpack, Tonkeeper, Sui Wallet）
 - ⚡️ 合约 ABI/IDL 自动同步至前端
 - ⚡️ 一键部署（支持链名+子网络选择）
 - ⚡️ Faucet 测试币一键领取
@@ -97,7 +97,8 @@ yarn dev
 - Aptos Move CLI (Aptos)
 - Tact CLI (TON)
 - Next.js + TailwindCSS + TypeScript
-- wagmi + RainbowKit + WalletAdapter
+- wagmi + RainbowKit (EVM)
+- wallet-adapter-react (Solana)
 - TurboRepo
 - GitHub Actions + Vercel
 

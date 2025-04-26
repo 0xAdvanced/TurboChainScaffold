@@ -1,0 +1,91 @@
+name: Deploy Contracts & Sync ABIs
+
+on:
+  workflow_dispatch:
+    inputs:
+      chain:
+        description: '选择要部署的链 (evm, solana, sui, aptos, ton)'
+        required: true
+        default: 'evm'
+        type: choice
+        options:
+          - evm
+          - solana
+          - sui
+          - aptos
+          - ton
+      network:
+        description: '选择网络 (对于EVM: ethereum-sepolia, ethereum-goerli, polygon-mumbai 等)'
+        required: false
+        default: 'ethereum-sepolia'
+        type: string
+
+jobs:
+  deploy-contracts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'yarn'
+          
+      - name: Install dependencies
+        run: yarn install
+        
+      - name: Setup environment
+        run: |
+          if [ "${{ github.event.inputs.chain }}" = "evm" ]; then
+            cd chains/evm
+            echo "${{ secrets.EVM_ENV }}" > .env
+          elif [ "${{ github.event.inputs.chain }}" = "solana" ]; then
+            cd chains/solana
+            echo "${{ secrets.SOLANA_ENV }}" > .env
+          elif [ "${{ github.event.inputs.chain }}" = "sui" ]; then
+            cd chains/sui
+            echo "${{ secrets.SUI_ENV }}" > .env
+          elif [ "${{ github.event.inputs.chain }}" = "aptos" ]; then
+            cd chains/aptos
+            echo "${{ secrets.APTOS_ENV }}" > .env
+          elif [ "${{ github.event.inputs.chain }}" = "ton" ]; then
+            cd chains/ton
+            echo "${{ secrets.TON_ENV }}" > .env
+          fi
+      
+      - name: Deploy contracts
+        run: |
+          if [ "${{ github.event.inputs.chain }}" = "evm" ] && [ ! -z "${{ github.event.inputs.network }}" ]; then
+            bash scripts/deploy.sh evm ${{ github.event.inputs.network }}
+          else
+            bash scripts/deploy.sh ${{ github.event.inputs.chain }}
+          fi
+      
+      - name: Sync ABIs to frontend
+        run: |
+          if [ "${{ github.event.inputs.chain }}" = "evm" ]; then
+            node scripts/sync-abis.js evm
+          elif [ "${{ github.event.inputs.chain }}" = "solana" ]; then
+            node scripts/sync-abis.js solana
+          elif [ "${{ github.event.inputs.chain }}" = "sui" ]; then
+            node scripts/sync-abis.js sui
+          elif [ "${{ github.event.inputs.chain }}" = "aptos" ]; then
+            node scripts/sync-abis.js aptos
+          elif [ "${{ github.event.inputs.chain }}" = "ton" ]; then
+            node scripts/sync-abis.js ton
+          fi
+      
+      - name: Create Pull Request with ABI changes
+        uses: peter-evans/create-pull-request@v4
+        with:
+          commit-message: "chore: sync ${{ github.event.inputs.chain }} ABIs from deployment"
+          title: "Sync ${{ github.event.inputs.chain }} ABIs from deployment"
+          body: |
+            This PR updates the ABIs/IDLs for ${{ github.event.inputs.chain }} after deployment to ${{ github.event.inputs.network || 'default network' }}.
+            
+            Deployed by: @${{ github.actor }}
+            Workflow: ${{ github.workflow }}
+            Network: ${{ github.event.inputs.network || 'default network' }}
+          branch: sync-abis-${{ github.event.inputs.chain }}-${{ github.run_id }}
+          base: main 

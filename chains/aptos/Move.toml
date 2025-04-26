@@ -1,0 +1,10 @@
+[package]
+name = "counter_app"
+version = "0.1.0"
+authors = ["TurboChainScaffold"]
+
+[addresses]
+counter_addr = "_"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "main" } 
