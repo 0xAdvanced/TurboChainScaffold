@@ -36,3 +36,13 @@ coverage/
 apps/dapp-ui/.next
 apps/dapp-ui/.turbo
 apps/dapp-ui/.vercel
+
+# Hardhat
+artifacts/
+cache/
+typechain-types/
+coverage/
+coverage.json
+
+# Temp files
+*.tmp
