@@ -21,10 +21,11 @@ async function main() {
     // 提取 ABI 和字节码
     const { abi, bytecode } = abiJson;
     
-    // 创建简化版的 ABI 文件
+    // 创建前端 ABI 目录
     const outputDir = path.join(__dirname, "../../../apps/dapp-ui/contracts/abis");
     await fs.mkdir(outputDir, { recursive: true });
     
+    // 保存 ABI 到前端目录
     const outputPath = path.join(outputDir, "Counter.json");
     await fs.writeFile(
       outputPath,

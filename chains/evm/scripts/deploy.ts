@@ -1,4 +1,5 @@
 import { ethers } from "hardhat";
+import { formatEther } from "ethers";
 
 async function main() {
   console.log("Starting deployment of Counter contract...");
@@ -9,16 +10,15 @@ async function main() {
     console.log(`Deploying Counter contract with the account: ${deployer.address}`);
     
     // Check account balance
-    const accountBalance = await deployer.getBalance();
-    console.log(`Account balance: ${ethers.utils.formatEther(accountBalance)} ETH`);
+    const accountBalance = await deployer.provider.getBalance(deployer.address);
+    console.log(`Account balance: ${formatEther(accountBalance)} ETH`);
     
     // Deploy the counter contract
     const Counter = await ethers.getContractFactory("Counter");
     const counter = await Counter.deploy();
-    await counter.deployed();
     
-    console.log(`Counter contract deployed successfully at: ${counter.address}`);
-    console.log(`Transaction hash: ${counter.deployTransaction.hash}`);
+    console.log(`Counter contract deployed successfully at: ${await counter.getAddress()}`);
+    console.log(`Transaction hash: ${counter.deploymentTransaction()?.hash}`);
     
     // Verify deployment
     const count = await counter.count();
